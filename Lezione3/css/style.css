@@ -9,7 +9,7 @@ body {
     border-color: black;
     background-color: aliceblue;
     width: 50%;
-    border: solid, 1px;
+    border: 3px solid black;
     border-radius: 7%;
     padding: 4%;
     font-style: initial;
@@ -20,14 +20,14 @@ body {
 }
 
 .carta {
-    border: solid, 1px;
+    border: solid black 3px;
     border-radius: 7%;
     width: 50%;
     padding: 5%;
 }
 
 #carta1 {
-    background-color: rgb(141, 187, 201);
+    background-color: rgb(210, 210, 210);
 }
 
 #carta2 {
@@ -39,8 +39,12 @@ body {
     color: blueviolet;
 }
 
-.informazioni {
-    color: black;
+#disponibile {
+    color: green;
+}
+
+#esaurito {
+    color: red;
 }
 
 table {
@@ -48,15 +52,8 @@ table {
     margin-top: 5%;
 }
 
-th,td {
+th,
+td {
     text-align: left;
     font-size: 25px;
-}
-
-.disponibile{
-    color: green;
-}
-
-.esaurito{
-    color: red;
 }
