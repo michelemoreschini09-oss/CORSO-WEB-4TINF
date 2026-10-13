@@ -1,0 +1,53 @@
+body {
+    background-color: aliceblue;
+    align-items: center;
+    align-content: center;
+    font-style: initial;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.primadiv {
+    background-color: blue;
+    margin-top: 5%;
+    border-radius: 5%;
+    padding: 4%;
+    display: flex;
+    border: 3px solid black;
+    width: 91%;
+    align-items: center;
+    align-content: center;
+    font-style: initial;
+}
+
+.titolo {
+    width: 65%;
+}
+
+.secondadiv {
+    display: flex;
+    gap: 3%;
+}
+
+.blocchi {
+    margin-top: 3%;
+    width: 33%;
+    align-content: center;
+    text-align: center;
+    border: 3px solid black;
+     border-radius: 5%;
+    padding: 4%;
+
+}
+
+#blocco1 {
+    background-color: blue;
+}
+
+#blocco2 {
+    background-color: green;
+}
+
+#blocco3 {
+    background-color: red;
+}
