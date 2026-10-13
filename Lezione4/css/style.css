@@ -8,13 +8,12 @@ body {
 }
 
 .primadiv {
-    background-color: blue;
+    background-color: lightskyblue;
     margin-top: 5%;
     border-radius: 5%;
-    padding: 4%;
+    padding: 2%;
     display: flex;
     border: 3px solid black;
-    width: 91%;
     align-items: center;
     align-content: center;
     font-style: initial;
@@ -24,30 +23,98 @@ body {
     width: 65%;
 }
 
+.img {
+    width: 35%;
+}
+
 .secondadiv {
     display: flex;
-    gap: 3%;
+    gap: 1%;
 }
 
 .blocchi {
-    margin-top: 3%;
+    margin-top: 1%;
     width: 33%;
     align-content: center;
     text-align: center;
     border: 3px solid black;
-     border-radius: 5%;
-    padding: 4%;
+    border-radius: 5%;
+    padding: 1%;
 
 }
 
 #blocco1 {
-    background-color: blue;
+    background-color: lightskyblue;
+    color: blue;
 }
 
 #blocco2 {
-    background-color: green;
+    background-color: lightgreen;
+    color: green;
 }
 
 #blocco3 {
-    background-color: red;
+    background-color: lightsalmon;
+    color: red;
+}
+
+.terzadiv {
+    display: flex;
+    gap: 1%;
+}
+
+.liste {
+    margin-top: 1%;
+    align-content: center;
+    border: 3px solid black;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+#liste1 {
+    width: 22%;
+}
+
+#liste2 {
+    width: 55%;
+}
+#liste3 {
+    width: 22%;
+}
+
+#colonne {
+    background-color: lightskyblue;
+}
+
+table {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;  
+}
+
+th, td {
+    border: 3px solid black;
+}
+
+.quartadiv {
+    background-color: rgb(230, 230, 250);
+    border: 1px solid black;
+    border-radius: 7%;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+.ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+#finale {
+    color: blueviolet;
+}
+
+mark {
+    background-color: transparent;
+    color: blue;
 }
