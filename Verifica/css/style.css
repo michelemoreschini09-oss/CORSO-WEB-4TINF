@@ -1,0 +1,113 @@
+body {
+    background-color: aliceblue;
+}
+
+.bordosuperiore {
+    background-color: blue;
+    color: aliceblue;
+    gap: 4%;
+    display: flex;
+}
+
+a {
+    padding: 1%;
+}
+
+mark {
+    background-color: lightseagreen;
+    color: aliceblue;
+
+}
+
+.primadiv {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 3px solid black;
+    border-radius: 5%;
+    background-color: white;
+    padding: 2%;
+
+}
+
+.titolo {
+    margin-left: 2%;
+    width: 65%;
+}
+
+.imgtitolo {
+    width: 35%;
+}
+
+.secondadiv {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 3px solid black;
+    border-radius: 5%;
+    background-color: lightblue;
+
+}
+
+.lista {
+    margin-left: 2%;
+    width: 50%;
+    padding: 2%;
+}
+
+li {
+    padding: 2%;
+}
+
+.table {
+    align-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+table th,
+td {
+    align-items: center;
+    align-content: center;
+    margin-left: 2%;
+    border: 1px solid black;
+    background-color: aliceblue;
+    padding: 2%;
+}
+
+#colonne {
+    background-color: lightblue;
+    text-align: left;
+    padding: 2%;
+}
+
+.terzadiv {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 3px solid black;
+    border-radius: 5%;
+    background-color: lightblue;
+    padding: 2%;
+}
+
+.finale {
+    display: flex;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 3px solid black;
+    border-radius: 5%;
+    background-color: lightgreen;
+    padding: 2%;
+}
+
+.imgfinale {
+    width: 30%;
+}
+
+.testofinale {
+    width: 70%;
+}
