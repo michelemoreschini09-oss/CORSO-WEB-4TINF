@@ -3,10 +3,17 @@ body {
 }
 
 .bordosuperiore {
-    background-color: blue;
+    background-color: #0a2540;
     color: aliceblue;
     gap: 4%;
     display: flex;
+    width: 100%;
+}
+
+.sottobordo {
+    margin-top: 0%;
+    background-color: #17517e;
+    color: #17517e;
 }
 
 a {
@@ -14,7 +21,7 @@ a {
 }
 
 mark {
-    background-color: lightseagreen;
+    background-color: #17517e;
     color: aliceblue;
 
 }
@@ -47,7 +54,8 @@ mark {
     margin-right: 10%;
     border: 3px solid black;
     border-radius: 5%;
-    background-color: lightblue;
+    background-color: #e0f2fe;
+    padding: 2%;
 
 }
 
@@ -78,7 +86,8 @@ td {
 }
 
 #colonne {
-    background-color: lightblue;
+    background-color: #0a2540;
+    color: aliceblue;
     text-align: left;
     padding: 2%;
 }
@@ -89,7 +98,7 @@ td {
     margin-right: 10%;
     border: 3px solid black;
     border-radius: 5%;
-    background-color: lightblue;
+    background-color: #e0f2fe;
     padding: 2%;
 }
 
