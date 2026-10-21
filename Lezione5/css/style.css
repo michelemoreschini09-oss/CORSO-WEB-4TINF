@@ -5,9 +5,9 @@ body {
 .bordosuperiore {
     display: flex;
     gap: 10px;
-    margin-top: 2%;
+    margin-top: 0%;
     align-items: center;
-    background-color: blue;
+    background-color: #0a2540;
     color: white;
 }
 
@@ -22,25 +22,81 @@ nav a{
 .sezione1,.sezione2,.sezione3 {
     display: flex;
     border: 3px, solid, black;
-    margin-top: 2%;
-    margin: 10%;
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    
     align-items: center;
     border-radius: 5%;
 }
 
 .sezione1 {
     background-color: white;
+    padding: 2%;
 }
 
 .titolo {
-    width: 70%;
+    width: 60%;
 }
 
 .imgtitolo {
-    width: 20%;
+    width: 30%;
     gap: 2%;
 }
 
 img {
     border-radius: 5%;
+}
+
+.sezione2 {
+    background-color: aliceblue;
+    align-items: stretch;
+}
+
+.lista {
+    width: 40%;
+    gap: 10px;
+    background-color: #e0f2fe ;
+    border-radius: 5%;
+    padding: 2%;
+}
+
+.table {
+    margin-left: 40px;
+    widht: 60%;
+    background-color: #e0f2fe ;
+    border-radius: 5%;
+    padding: 2%;
+}
+
+table {
+    width: 400px;
+    padding: 2%;
+}
+
+td,th {
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 1%;
+    background-color: white;
+}
+
+.sezione3 {
+    background-color: #EAF7EC;
+    padding: 2%;
+}
+
+.imgfinale {
+    width: 25%;
+}
+
+.finale {
+    width: 70%;
+}
+
+#bottone_finale {
+    background-color: #17517e;
+    color: white;
+    border-radius: 5%;
+    padding: 1%;
 }
