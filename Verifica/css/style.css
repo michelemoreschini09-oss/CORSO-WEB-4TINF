@@ -6,6 +6,7 @@ body {
     background-color: #0a2540;
     color: aliceblue;
     gap: 4%;
+    align-items: center;
     display: flex;
     width: 100%;
 }

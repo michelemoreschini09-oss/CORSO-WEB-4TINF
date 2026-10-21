@@ -1,0 +1,46 @@
+body {
+    background-color: aliceblue;
+}
+
+.bordosuperiore {
+    display: flex;
+    gap: 10px;
+    margin-top: 2%;
+    align-items: center;
+    background-color: blue;
+    color: white;
+}
+
+nav a{
+    gap: 25px;
+    margin: 20px;
+    border-radius: 5%;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.sezione1,.sezione2,.sezione3 {
+    display: flex;
+    border: 3px, solid, black;
+    margin-top: 2%;
+    margin: 10%;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.sezione1 {
+    background-color: white;
+}
+
+.titolo {
+    width: 70%;
+}
+
+.imgtitolo {
+    width: 20%;
+    gap: 2%;
+}
+
+img {
+    border-radius: 5%;
+}
