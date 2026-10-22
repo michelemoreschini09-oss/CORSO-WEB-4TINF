@@ -19,6 +19,10 @@ nav a{
     color: aliceblue;
 }
 
+.principale {
+    width: 100%;
+}
+
 .sezione1,.sezione2,.sezione3 {
     display: flex;
     border: 3px, solid, black;
@@ -81,6 +85,42 @@ td,th {
     background-color: white;
 }
 
+mark {
+    border-radius: 35%;
+    padding: 4%;
+}
+
+#linea1 {
+    background-color: lightgreen;
+    color: green;
+}
+
+#linea2 {
+    background-color: lightblue;
+    color: blue;
+}
+
+#linea3 {
+    background-color: lightgoldenrodyellow;
+    color: brown;
+}
+
+.td_stato {
+    text-align: center;
+    padding: 2%;
+}
+
+#tdspecial {
+    background-color: #e0f2fe;
+}
+
+#td_null {
+    background-color: lightgoldenrodyellow;
+    color: brown;
+    font-style: oblique;
+    text-align: center;
+}
+
 .sezione3 {
     background-color: #EAF7EC;
     padding: 2%;
@@ -99,4 +139,14 @@ td,th {
     color: white;
     border-radius: 5%;
     padding: 1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#markfinale {
+    background-color: transparent;
+    color: #17517e;
+    gap: 0%;
 }

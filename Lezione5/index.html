@@ -11,7 +11,7 @@
         <h2> 📚La Mia Biblioteca</h2>
         <nav>
             <a href="index.html">Home</a>
-            <a href="index.html">Libro</a>
+            <a href="libro.html">Libro</a>
         </nav>
             
     </header>
@@ -45,27 +45,27 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>Libro</th>
-                            <th>Stato</th>
+                            <th id="tdspecial">Libro</th>
+                            <th id="tdspecial">Stato</th>
                         </tr>
                         <tr>
                             <td>Il piccolo principe</td>
-                            <td>Letto</td>
+                            <td class="td_stato"> <mark id="linea1">Letto </mark></td>
                         </tr>
                         <tr>
                             <td>Lo Hobbit</td>
-                            <td>In corso</td>
+                            <td class="td_stato"><mark id="linea2">In corso </mark></td>
                         </tr>
                         <tr>
-                            <td>1984</td>
-                            <td>Da leggere</td>
+                            <td id="tdspecial">1984</td>
+                            <td class="td_stato" id="tdspecial"><mark id="linea3">Da leggere </mark></td>
                         </tr>
                         <tr>
-                            <td colspan="2">Dato non trovato</td>
+                            <td id="td_null" colspan="2">Dato non trovato</td>
                         </tr>
                         <tr>
-                            <td>1984 prima edizione</td>
-                            <td rowspan="2">Letto</td>
+                            <td id="tdspecial">1984 prima edizione</td>
+                            <td class="td_stato" id="tdspecial" rowspan="2"><mark id="linea3">Letto </mark></td>
                         </tr>
                         <tr>
                             <td>1984 seconda edizione</td>
@@ -82,7 +82,7 @@
             </div>
             <div class="finale">
                 <h3>Il piccolo principe</h3>
-                <h4>Una storia di amicizia, incontri e scoperta.</h4>
+                <p>Una storia di<mark id="markfinale">amicizia</mark>incontri e scoperta.</p>
                 <a href="pages/libro.html" id="bottone_finale"> scopri il tuo Libro</a>
             </div>
         </section>
