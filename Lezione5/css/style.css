@@ -35,7 +35,7 @@ nav a{
 
 .sezione1 {
     background-color: white;
-    padding: 2%;
+    padding: 1%;
 }
 
 .titolo {
@@ -61,7 +61,7 @@ img {
     gap: 10px;
     background-color: #e0f2fe ;
     border-radius: 5%;
-    padding: 2%;
+    padding: 1%;
 }
 
 .table {
@@ -122,7 +122,7 @@ mark {
 
 .sezione3 {
     background-color: #EAF7EC;
-    padding: 2%;
+    padding: 1%;
 }
 
 .imgfinale {
