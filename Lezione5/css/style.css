@@ -208,3 +208,11 @@ td {
     border-radius: 5%;
     padding: 2%;
 }
+
+footer {
+    background-color: #0a2540;
+    color: white;
+    text-align: center;
+    margin-top: 1%;
+    padding: 1%;
+}
