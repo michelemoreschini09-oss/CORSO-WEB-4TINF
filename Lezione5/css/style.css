@@ -17,19 +17,18 @@ nav a{
     border-radius: 5%;
     font-size: 20px;
     color: aliceblue;
+
 }
 
 .principale {
     width: 100%;
 }
 
-.sezione1,.sezione2,.sezione3 {
+.sezione1,.sezione2,.sezione3,.sezione4,.sezione5,.sezione6,.sezionefinale {
     display: flex;
-    border: 3px, solid, black;
     margin-top: 1%;
     margin-left: 30%;
     margin-right: 30%;
-    
     align-items: center;
     border-radius: 5%;
 }
@@ -66,15 +65,15 @@ img {
 }
 
 .table {
-    margin-left: 40px;
-    widht: 60%;
+    margin-left: 10%;
+    width: 60%;
     background-color: #e0f2fe ;
     border-radius: 5%;
     padding: 2%;
 }
 
 table {
-    width: 400px;
+    width: 100%;
     padding: 2%;
 }
 
@@ -97,7 +96,7 @@ mark {
 
 #linea2 {
     background-color: lightblue;
-    color: blue;
+    color: #0a2540;
 }
 
 #linea3 {
@@ -127,15 +126,15 @@ mark {
 }
 
 .imgfinale {
-    width: 25%;
+    width: 100%;
 }
 
 .finale {
-    width: 70%;
+    width: 100%;
 }
 
 #bottone_finale {
-    background-color: #17517e;
+    background-color: #0a2540;
     color: white;
     border-radius: 5%;
     padding: 1%;
@@ -145,8 +144,67 @@ a {
     text-decoration: none;
 }
 
-#markfinale {
+a:hover{
+    text-decoration: underline;
+}
+
+#spanfinale {
     background-color: transparent;
-    color: #17517e;
+    color: #0a2540;
     gap: 0%;
+}
+
+/*--------------PAGINA--LIBRO------------------------*/
+
+.sezione4 {
+    background-color: #e0f2fe;
+    color: #0a2540;
+    padding: 1%;
+}
+
+.sezione5 {
+    display: block;
+    background-color: #e0f2fe;
+    color: #0a2540;
+    padding: 1%;
+}
+
+table {
+    text-align: left;
+    border: 1% solid #0a2540;
+}
+
+th {
+    background-color: #e0f2fe;
+    color: #0a2540;
+    border: 1% solid #0a2540;
+}
+
+td {
+    color: #0a2540;
+    border: 1% solid #0a2540;
+}
+
+.sezione6 {
+    display: block;
+    background-color: #e0f2fe;
+    color: #0a2540;
+    padding: 1%;
+}
+
+.sezionefinale {
+    background-color: aliceblue;
+    margin-top: 2%;
+    color: #0a2540;
+}
+
+.finale2 {
+    width: 100%;
+}
+
+#bottone_finale2 {
+    background-color: #0a2540;
+    color: white;
+    border-radius: 5%;
+    padding: 2%;
 }

@@ -1,0 +1,57 @@
+body {
+    background-color: aliceblue;
+}
+
+nav a{
+    gap: 30px;
+    padding-left: 4%;
+    padding-top: 4%;
+    align-items: center;
+    color: black;
+    background-color: azure;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(1.1) rotate(14deg);
+}
+
+.principale:hover {
+    width: 100%;
+    background-color: bisque;
+    color: brown;
+    border-radius: 5%;
+    transition: width 12s;
+    transform: rotate(15deg);
+    transform: scale(1.1) rotate(5deg);
+}
+
+@keyframes colori{
+    0% {
+        background-color: bisque;
+    }
+    25% {
+
+    }
+}
+
+.galleria {
+    display: flex;
+    width: 45%;
+    animation: scorrimento 10s linear infinite;
+}
+
+.barrascorrimento {
+    width: 400px;
+    height: 120px;
+}
+
+@keyframes scorrimento{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translate(-100%);
+    }
+}
