@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1 id="titolo"> ciao</h1>
+<button id="bottone" onclick="bottoneInvio()">Invio</button>
+
+<h1 id="titolo2"> ciao</h1>
+<button id="bottone2" onclick="bottoneInvio()">Invio</button>
+
+</body>
+<script>
+
+    let = titolo = document.getElementById('titolo');
+    let nome = "marco";
+
+    console.log(titolo.textContent + "" + nome);
+
+    function bottoneInvio() {
+        console.log(titolo.textContent + "" + nome);
+
+        document.querySelector('#titolo').textContent = "ciao" + nome
+
+        titolo.textContent += " " + nome
+    }
+
+    let btn2 = document.querySelector('#bottone2')
+
+    btn2.addEventListener("click", function () {
+        let titolo = document.getElementById('titolo2');
+        let nome = "Gabriele"
+        titolo2.textContent += " " + nome
+    })
+</script>
+
+</html>
